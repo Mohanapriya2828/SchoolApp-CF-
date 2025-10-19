@@ -7,7 +7,6 @@ namespace SchoolApp.Models
         Student,
         Teacher
     }
-
     public class User
     {
         public int Id { get; set; }
@@ -21,7 +20,6 @@ namespace SchoolApp.Models
         public string Address { get; set; }
         public string PhoneNumber { get; set; }
         public bool IsActive { get; set; } = true;
-
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
         public DateTime? UpdatedAt { get; set; }
         public DateTime? DeletedAt { get; set; }

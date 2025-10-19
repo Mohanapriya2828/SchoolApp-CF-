@@ -35,7 +35,6 @@ namespace SchoolApp_CF_.Api.Migrations
                 {
                     table.PrimaryKey("PK_Users", x => x.Id);
                 });
-
             migrationBuilder.CreateIndex(
                 name: "IX_Users_Email",
                 table: "Users",
